@@ -5,6 +5,11 @@ Mars orbital image (HiRISE) - Image Classification
 
 This is a project to implement a image classification for the [HiRISE Dataset](https://data.nasa.gov/Space-Science/Mars-orbital-image-HiRISE-labeled-data-set-version/egmv-36wq/about_data)
 
+# Usage
+
+Create a directory called 'data' on the top level of the project file structure. Download the dataset from its [Website](https://zenodo.org/records/2538136) into the data directory and unzip it. The code should be working now. As decribed on the website the labels-map-proj-v3.txt contains imagename and labels while map-proj-v3 contains all images. The code will take care of connect the images to the related label.
+
+
 # Content
 
 The notebooks directory contains three jupyter notebooks. The deep learning architecture is taken from keras/tensorflow articles as documented in the notenook comments.
